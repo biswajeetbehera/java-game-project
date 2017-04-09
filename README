@@ -1,0 +1,49 @@
+The main methods to run can be found in:
+
+.gui package - GUI class
+.cli package -  CLI class
+.server package - Server class
+
+Start the server and then open the GUI and you are all set to have the time of your life with EFTAIOS
+
+==============================
+INSTRUCTIONS FOR THE GAME
+==============================
+
+-In the first screen write the IP address of the host (or leave 127.0.0.1 if you're testing the game locally)
+Our server is reachable at 188.166.91.184 - Note: Your experience may vary. (we had very variable ping performance, sockets seems to be faster)
+
+
+PRESS ENTER AFTER YOU ENTER YOUR USERNAME INTO THE TEXT FIELD TO ACTIVATE THE CONNECT BUTTON
+
+-In the second screen you can see the games currently running on the server, if none is available for joining you can
+    create one. All the players connecting after the creation of a game will see the game in the list of available games to join.
+    
+The server will be waiting for four minutes for the game to start. If not enough players connect during that time, the game
+will be cancelled and deleted.
+
+-------------
+How to play:
+-------------
+
+The game is pretty straight forward, keep a close eye on the Events to see what is going on, and when it's your turn buttons
+    for the available actions will appear. 
+    
+    In order to move or use an item you have to first click on a sector or on the picture
+    of an item. (The sectors are not selectable near the left and right borders,
+        please click in the center area near the indication of the coordinate (es. M11) )
+        
+A red border in the sector indicates your current position, a blue border indicates the selected sector instead.
+        
+When you can and should end a turn an EndTurn button will appear in the Available Actions section of the screen.
+ 
+If you don't complete your turn in a minute a warning will pop up in the events, if you don't complete
+your turn in a minute after the warning you will be considered disconnected from the game.
+
+When you pick a Noise In Any Sector Card your only available action will be Noise. 
+When you use a Spotlight Item Card your only available action will be Spotlight.
+Please select the sector on which you would like to make a noise or shine a light before pressing the button.
+
+Animations will indicate to everybody where a player attacked or made a noise.
+
+Methods of communication and GUI/CLI are completely interchangeable.

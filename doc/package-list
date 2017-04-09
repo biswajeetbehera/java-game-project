@@ -1,0 +1,11 @@
+it.polimi.ingsw.cg11.cli
+it.polimi.ingsw.cg11.communication.client
+it.polimi.ingsw.cg11.communication.commons
+it.polimi.ingsw.cg11.communication.server
+it.polimi.ingsw.cg11.controller
+it.polimi.ingsw.cg11.controller.action
+it.polimi.ingsw.cg11.gui
+it.polimi.ingsw.cg11.model
+it.polimi.ingsw.cg11.model.cards
+it.polimi.ingsw.cg11.model.map
+it.polimi.ingsw.cg11.model.players

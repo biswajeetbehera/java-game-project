@@ -1,0 +1,108 @@
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#Class2.atxa> a atxa-core:reloFile .
+
+atxa:DetailNode atxa-core:detailLevel "0" .
+
+atxa-core:docRoot atxa-core:browseModel "com.architexa.diagrams.relo.jdt/com.architexa.diagrams.relo.jdt.browse.ClassStrucBrowseModel" ;
+	atxa-core:contains _:node19lj2oa1vx133 .
+
+_:node19lj2oa1vx133 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players> ;
+	atxa-core:posX "395" ;
+	atxa-core:posY "356" .
+
+<http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players> atxa-core:contains <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HumanCrew> , <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$AlienPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HumanPlayer> , <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HungryAlien> , <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HumanPlayerTest> , <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$AlienPlayerTest> , <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$Player> .
+
+_:node19lj2oa1vx133 atxa-core:contains _:node19lj2oa1vx134 .
+
+_:node19lj2oa1vx134 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HumanCrew> ;
+	atxa-core:posX "559" ;
+	atxa-core:posY "468" .
+
+_:node19lj2oa1vx133 atxa-core:contains _:node19lj2oa1vx135 .
+
+_:node19lj2oa1vx135 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$AlienPlayer> ;
+	atxa-core:posX "695" ;
+	atxa-core:posY "385" .
+
+_:node19lj2oa1vx133 atxa-core:contains _:node19lj2oa1vx136 .
+
+_:node19lj2oa1vx136 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HumanPlayer> ;
+	atxa-core:posX "408" ;
+	atxa-core:posY "468" .
+
+_:node19lj2oa1vx24 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19lj2oa1vx136 ;
+	rdf:object _:node19lj2oa1vx137 ;
+	atxa-core:bendpoint _:node19lj2oa1vx138 .
+
+_:node19lj2oa1vx138 atxa-core:bpLocation "475,455" ;
+	atxa-core:bpIndex "0" .
+
+_:node19lj2oa1vx24 atxa-core:bendpoint _:node19lj2oa1vx139 .
+
+_:node19lj2oa1vx139 atxa-core:bpLocation "630,455" ;
+	atxa-core:bpIndex "1" .
+
+_:node19lj2oa1vx133 atxa-core:contains _:node19lj2oa1vx140 .
+
+_:node19lj2oa1vx140 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HungryAlien> ;
+	atxa-core:posX "411" ;
+	atxa-core:posY "574" .
+
+_:node19lj2oa1vx23 a atxa-core:link ;
+	atxa-core:model atxa-jdt:inherits ;
+	rdf:subject _:node19lj2oa1vx140 ;
+	rdf:object _:node19lj2oa1vx135 ;
+	atxa-core:bendpoint _:node19lj2oa1vx141 .
+
+_:node19lj2oa1vx141 atxa-core:bpLocation "475,448" ;
+	atxa-core:bpIndex "0" .
+
+_:node19lj2oa1vx23 atxa-core:bendpoint _:node19lj2oa1vx142 .
+
+_:node19lj2oa1vx142 atxa-core:bpLocation "754,448" ;
+	atxa-core:bpIndex "1" .
+
+_:node19lj2oa1vx133 atxa-core:contains _:node19lj2oa1vx143 .
+
+_:node19lj2oa1vx143 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$HumanPlayerTest> ;
+	atxa-core:posX "494" ;
+	atxa-core:posY "526" .
+
+_:node19lj2oa1vx133 atxa-core:contains _:node19lj2oa1vx144 .
+
+_:node19lj2oa1vx144 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$AlienPlayerTest> ;
+	atxa-core:posX "401" ;
+	atxa-core:posY "415" .
+
+_:node19lj2oa1vx133 atxa-core:contains _:node19lj2oa1vx137 .
+
+_:node19lj2oa1vx137 a atxa-core:node ;
+	atxa-core:model <http://www.architexa.com/rdf/jdt-wkspc#it.polimi.ingsw.cg11.model.players$Player> ;
+	atxa-core:posX "589" ;
+	atxa-core:posY "392" .
+
+@prefix atxa-rse-eclipse: <http://www.architexa.com/rdf/rse-eclipse#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix atxa-jdt-wkspc: <http://www.architexa.com/rdf/jdt-wkspc#> .
+@prefix atxa-core: <http://www.architexa.com/rdf/core#> .
+@prefix atxa: <http://www.architexa.com/rdf/> .
+@prefix atxa-jdt: <http://www.architexa.com/rdf/jdt#> .
+
+<http://www.architexa.com/rdf/rse-eclipse#Class2.atxa> a atxa-core:reloFile ;
+	atxa-core:contains _:node19lj2oa1vx134 , _:node19lj2oa1vx135 , _:node19lj2oa1vx136 , _:node19lj2oa1vx140 , _:node19lj2oa1vx143 , _:node19lj2oa1vx144 , _:node19lj2oa1vx137 , _:node19lj2oa1vx133 , atxa-core:docRoot , _:node19lj2oa1vx134 , _:node19lj2oa1vx135 , _:node19lj2oa1vx136 , _:node19lj2oa1vx140 , _:node19lj2oa1vx143 , _:node19lj2oa1vx144 , _:node19lj2oa1vx137 , _:node19lj2oa1vx133 , atxa-core:docRoot , _:node19lj2oa1vx24 , _:node19lj2oa1vx23 , _:node19lj2oa1vx24 , _:node19lj2oa1vx23 .
+
